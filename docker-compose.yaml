@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  wiremock-server:
+    # image: wiremock/wiremock:2.35.0
+    image: up9inc/wiremock-studio:2.32.0-18
+    ports:
+      - 9000:9000
+      - 8000-8005:8000-8005
+    volumes:
+      - ./wiremock-docs:/home/wiremock

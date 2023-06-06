@@ -1,0 +1,8 @@
+{
+  "services" : [ {
+    "id" : "g5g32",
+    "name" : "pokemons",
+    "port" : 8000,
+    "rootDir" : "pokemons"
+  } ]
+}
